@@ -21,7 +21,7 @@ app.get("/", (req, res) => {
 })
 
 
-app.post("/seml", (req,red) => { 
+app.post("/seml", (req,res) => { 
   res.send("post .... Hello World!" )
 })
 
