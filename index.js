@@ -20,6 +20,11 @@ app.get("/", (req, res) => {
   res.send({ message: "Hello World!" })
 })
 
+
+app.post("/seml", (req,red) =>{
+  res.send({ message: "post .... Hello World!" })
+})
+
 app.listen(port, () => {
   console.log(`Example app listening at Port: ${port}`)
 })
